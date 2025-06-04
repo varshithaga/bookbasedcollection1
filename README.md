@@ -1,5 +1,5 @@
 # bookbasedcollection
-above i have uploaded pdf , it has steps and other database postman realed photos
+above i have uploaded pdf , it has steps and other database postman related photos
 
 
 Git clone the project 
