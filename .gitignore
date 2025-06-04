@@ -1,0 +1,40 @@
+# Python & Django
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual Environment
+venv/
+.venv/
+ENV/
+env/
+
+# Django Migrations (optional)
+**/migrations/
+!**/migrations/__init__.py
+
+# Databases
+*.sqlite3
+db.sqlite3
+
+# Logs
+*.log
+
+# Env variables
+.env
+
+# Static/media (user-generated)
+media/
+staticfiles/
+
+# OS & Editor Specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Testing and coverage
+.coverage
+htmlcov/
+.cache/

@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+  <h1>Generated Frames for {{ file.file.name }}</h1>
+  <div style="display: flex; flex-wrap: wrap;">
+    {% for img_url in image_urls %}
+      <div style="margin: 10px;">
+        <img src="{{ img_url }}" alt="Frame {{ forloop.counter }}" style="max-width: 300px;">
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}

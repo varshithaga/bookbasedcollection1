@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<h2>Enter number of frames for</h2>
+<form method="post">
+    {% csrf_token %}
+    <label for="id_n_frames">Number of frames:</label>
+    <input type="number" name="n_frames" id="id_n_frames" min="1" value="5" required>
+    <button type="submit">Generate Frames</button>
+</form>
+{% endblock %}

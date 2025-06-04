@@ -1,0 +1,7 @@
+
+{% for frame in frames %}
+  <div>
+    <p>Prompt: {{ frame.prompt }}</p>
+    <img src="{{ frame.generated_image.url }}" alt="Frame {{ frame.frame_number }}">
+  </div>
+{% endfor %}
