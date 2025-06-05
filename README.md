@@ -15,6 +15,14 @@ python -m vev venv<br>
 .\venv\Scripts\activate<br>
 pip install -r requirements.txt<br>
 
+
+# Postgresql
+install postgresql <br>
+create a database named bookbasedcollection<br>
+in settings.py <br>
+and enter your  username and password in DATABASES
+
+
 # Hugging face api
 HUGGINGFACE_API -You can generate one(Access Token) and  paste in .env file
 
