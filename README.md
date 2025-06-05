@@ -2,7 +2,7 @@
 above i have uploaded pdf , it has steps and other database postman related photos<br>
 
 # git clone the project
-Git clone the project 
+Git clone the project <br> https://github.com/varshithaga/bookbasedcollection1.git
 
 # create django project
 django-admin stratproject myproject<br>
