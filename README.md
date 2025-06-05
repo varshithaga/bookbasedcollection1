@@ -23,5 +23,5 @@ run in terminal
 python manage.py runserver
 
 # storing
-generated images are stored in in media whose path is stored in database
+generated images are stored in in media whose path is stored in database<br>
 uploaded pdf are stored in media , its path are also stored in database
