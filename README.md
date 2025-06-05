@@ -2,18 +2,24 @@
 above i have uploaded pdf , it has steps and other database postman related photos<br>
 
 # git clone the project
-Git clone the project <br> https://github.com/varshithaga/bookbasedcollection1.git
+Git clone the project <br> 
+<pre>https://github.com/varshithaga/bookbasedcollection1.git</pre>
 
 # create django project
-django-admin stratproject myproject<br>
-cd myproject <br>
-python manage.py startapp pdfsplitter<br>
+<pre>
+django-admin stratproject myproject
+cd myproject 
+python manage.py startapp pdfsplitter
+</pre>
+
 
 # environment
-cd ..<br>
-python -m vev venv<br>
-.\venv\Scripts\activate<br>
-pip install -r requirements.txt<br>
+<pre>
+cd ..
+python -m vev venv
+.\venv\Scripts\activate
+pip install -r requirements.txt
+</pre>
 
 
 # Postgresql
@@ -28,7 +34,8 @@ HUGGINGFACE_API -You can generate one(Access Token) and  paste in .env file
 
 # next
 run in terminal
-python manage.py runserver
+<pre>python manage.py runserver
+</pre>
 
 # storing
 generated images are stored in in media whose path is stored in database<br>
