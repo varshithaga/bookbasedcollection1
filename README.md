@@ -1,5 +1,5 @@
 # bookbasedcollection
-above i have uploaded pdf , it has steps and other database postman related photos
+above i have uploaded pdf , it has steps and other database postman related photos<br>
 
 # git clone the project
 Git clone the project 
@@ -10,10 +10,10 @@ cd myproject <br>
 python manage.py startapp pdfsplitter<br>
 
 # environment
-cd ..
-python -m vev venv
-.\venv\Scripts\activate
-pip install -r requirements.txt
+cd ..<br>
+python -m vev venv<br>
+.\venv\Scripts\activate<br>
+pip install -r requirements.txt<br>
 
 # Hugging face api
 HUGGINGFACE_API -You can generate one(Access Token) and  paste in .env file
